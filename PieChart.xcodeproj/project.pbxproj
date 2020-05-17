@@ -13,6 +13,10 @@
 		1D125C8F2471435400FF7149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D125C8E2471435400FF7149 /* Assets.xcassets */; };
 		1D125C922471435400FF7149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D125C912471435400FF7149 /* Preview Assets.xcassets */; };
 		1D125C952471435400FF7149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D125C932471435400FF7149 /* LaunchScreen.storyboard */; };
+		1D125C9D247143E800FF7149 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D125C9C247143E800FF7149 /* Home.swift */; };
+		1D125C9F2471466100FF7149 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D125C9E2471466100FF7149 /* Pie.swift */; };
+		1D125CA1247146DE00FF7149 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D125CA0247146DE00FF7149 /* Data.swift */; };
+		1D125CA3247147DE00FF7149 /* DrawShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D125CA2247147DE00FF7149 /* DrawShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1D125C912471435400FF7149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D125C942471435400FF7149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D125C962471435400FF7149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D125C9C247143E800FF7149 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1D125C9E2471466100FF7149 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		1D125CA0247146DE00FF7149 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		1D125CA2247147DE00FF7149 /* DrawShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				1D125C932471435400FF7149 /* LaunchScreen.storyboard */,
 				1D125C962471435400FF7149 /* Info.plist */,
 				1D125C902471435400FF7149 /* Preview Content */,
+				1D125C9C247143E800FF7149 /* Home.swift */,
+				1D125C9E2471466100FF7149 /* Pie.swift */,
+				1D125CA0247146DE00FF7149 /* Data.swift */,
+				1D125CA2247147DE00FF7149 /* DrawShape.swift */,
 			);
 			path = PieChart;
 			sourceTree = "<group>";
@@ -146,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D125C9F2471466100FF7149 /* Pie.swift in Sources */,
+				1D125CA1247146DE00FF7149 /* Data.swift in Sources */,
 				1D125C892471435300FF7149 /* AppDelegate.swift in Sources */,
+				1D125CA3247147DE00FF7149 /* DrawShape.swift in Sources */,
 				1D125C8B2471435300FF7149 /* SceneDelegate.swift in Sources */,
+				1D125C9D247143E800FF7149 /* Home.swift in Sources */,
 				1D125C8D2471435300FF7149 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
